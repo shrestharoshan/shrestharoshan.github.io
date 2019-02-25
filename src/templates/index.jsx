@@ -110,7 +110,7 @@ class IndexTemplate extends React.Component {
                 next={next}
               >
                 {/* PostListing component renders all the posts */}
-                <PostListing postEdges={nodes} postAuthors={authorsEdges} />
+               {/* <PostListing postEdges={nodes} postAuthors={authorsEdges} />*/}
               </PaginatedContent>
             </div>
 
